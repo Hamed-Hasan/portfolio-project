@@ -23,3 +23,14 @@ function topFunction() {
 
 // cursor
 
+AOS.init();
+
+// typed js
+
+var typed = new Typed('.element', {
+  strings: [ 'Hamed Hasan', 'Mern Stack Web Developer','Designer'],
+  // smartBackspace: true,
+  typeSpeed: 60,
+  loop: true,
+  backSpeed: 60,// Default value
+});
